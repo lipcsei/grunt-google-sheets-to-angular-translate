@@ -1,0 +1,12 @@
+{
+
+  "spreadsheetName": "Sheet name",
+  "worksheetName": "Worksheet name",
+  "spreadsheetId": "Sheet ID",
+  "oauth" : {
+    "email": "Generated Google email",
+    "keyFile": "Generated key.pem file"
+  }
+
+}
+
