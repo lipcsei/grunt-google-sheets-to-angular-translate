@@ -71,7 +71,7 @@ module.exports = function (grunt) {
                         tmp.map(function (i) {
                             data[i] = {};
                             Object.keys(rows).map(function (row) {
-                                    var token = rows[row]['1'];
+                                    var token = rows[row]['1'].trim().toLowerCase().split(".").join("_").split("-").join("_");
                                     var translate = rows[row][tmp.indexOf(i) + 2];
                                     var obj = {};
                                     obj[token] = translate;
